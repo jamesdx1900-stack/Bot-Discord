@@ -1,0 +1,18 @@
+discord.py
+    PyMySQL
+    Flask
+    ```
+  
+  
+    1. Tìm biểu tượng **Tools** -> **Secrets** (hình cái khóa).
+    2. Thêm một Secret mới:
+       - Key: `TOKEN`
+       - Value: `MTQ4OTg1MjI3Nzg4NjgxMjI3MQ.G_z5P8.Y8nYRIFunVh66LoIneDUPKRwxKLu0gkD62SqC0`
+  
+  
+    Trong `DB_CONFIG`, hãy chắc chắn bạn đã thay `localhost` bằng địa chỉ IP hoặc Hostname của database MySQL online. Replit không thể kết nối tới SQL chạy trên máy tính cá nhân của bạn.
+  
+  
+    1. Nhấn nút **Run**. Một cửa sổ web nhỏ sẽ hiện ra với dòng chữ "Bot is running!".
+    2. Copy link của cửa sổ đó (dạng `https://your-repl-name.user.repl.co`).
+    3. Truy cập [UptimeRobot](https://uptimerobot.com/), tạo một "Monitor" mới kiểu **HTTP(s)** và dán link đó vào để bot không bị tắt.
